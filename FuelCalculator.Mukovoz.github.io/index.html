@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fuel calculator</title>
+</head>
+<body>  
+    <header>
+        <div id="header">Fuel calculator</div>
+            </header>
+    <div id="typetrain">
+        <div id="typetrain1">
+            <div id='train'>Поезд</div>
+            <div id="trainstat1">
+                <div>Вес</div>
+                <div>Расстояние</div>
+                <div>Коэффициент</div>
+            </div>
+            <div id="traindata1">
+                <div>
+                    <input type="text" id="n1" placeholder="Брутто">
+                </div>
+                <div>
+                    <input type="text" id="n2" placeholder="до станции -км-">
+                </div>
+                <div>
+                    <input type="text" id="n3" placeholder="по таблице">
+                </div>
+            </div>
+            <div id="traincalc1">
+                <div>
+                    <button id="btn" onclick="multiply1()">Перемножить</button>
+                </div>
+                <div>
+                    Итого <div id="out1">__________</div>
+                </div>
+            </div>
+        </div>
+        <div id="typetrain2">
+            <div id='train'>Резерв</div>
+            <div id="trainstat2">
+                Расстояние
+            </div>
+            <div id="traindata2">
+                <input type="text" id="n4" placeholder="до станции -км-">
+            </div>
+            <div id="traincalc2">
+                <div>
+                    <button id="btn" onclick="multiply2()">Перемножить</button>
+                </div>
+                <div>
+                    Итого <div id="out2">__________</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <footer>
+        <div id="footer">Calculator for calculating fuel, which was used by a locomotive engineer. <b>v 1.01.100718</b></div>
+        <div>
+            <a id="vu45" href="vu45.html" title="Ву-45">ВУ-45</a>
+        </div>
+        <div id="sociallogo">
+            <a id="logofooter" href="https://t.me/Mukovoz_Artem"><img src="social/telegram.svg" title="Telegram" alt=""></a>
+            <a id="logofooter" href="https://vk.com/mukovoz"><img src="social/vk.svg" title="VK" title="Vkontakte" alt=""></a>
+            <a id="logofooter" href="https://www.instagram.com/artem.mukovoz/"><img src="social/inst.svg" title="Instagram" alt=""></a>
+            <a id="logofooter" href=""><img src="social/viber.svg" title="+380993550094" alt=""></a>
+        </div>
+        <div id="contack">
+            Created by Mukovoz Artem, tab. #2730, 2018.
+        </div>
+    </footer>
+
+    <script src="js/scritp.js"></script>
+
+</body>
+</html>
