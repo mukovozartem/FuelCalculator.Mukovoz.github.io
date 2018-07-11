@@ -21,7 +21,7 @@ font-family: 'Rubik Mono One', sans-serif;*/
 
 
 body{
-    background-color: #16adad;
+    background-color: #fff;
     margin: 1px;
     padding: 1px;
     font-family: 'Alegreya', serif;
@@ -30,7 +30,7 @@ body{
 
 a{
     font-family: 'Alegreya', serif;
-    color: #4a0419;
+    /* color: #4a0419; */
     text-decoration: none;
 }
 
@@ -40,8 +40,12 @@ header{
     width: auto;
     height: auto;
     font-size: 3em;
+    color: #fff;
     text-align: center;
-    border-bottom: 5px double;
+    border: 5px solid #fff;
+    border-radius: 35px;
+    background-color: #000;
+
 }
 
 /* calculator */
@@ -170,7 +174,7 @@ img{
     color: #16adad;
 }
 
-@media (min-widht: 900px){
+@media (max-widht: 1080px){
 
     #typetrain1{
         float: left;     
