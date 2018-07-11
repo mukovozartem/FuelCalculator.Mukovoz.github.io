@@ -138,19 +138,19 @@ input{
 #trainstat2{
     float: left;
     width: auto;
-    margin-left: 50px;
+    margin-left: 7%;
 }
 
 #traindata2{
     float: left;
     width: auto;
-    margin-left: 75px;
+    margin-left: 7%;
 }
 
 #traincalc2{
     float: left;
     width: auto;
-    margin-left: 50px;
+    margin-left: 7%;
 }
 
 #train{
