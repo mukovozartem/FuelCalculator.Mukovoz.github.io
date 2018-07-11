@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Amatic+SC|Caveat|Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Amatic+SC|Caveat|Rubik+Mono+One|Homemade+Apple|Indie+Flower|Permanent+Marker');
 
-/*font-family: 'Amatic SC', cursive;
+/* Шрифты текста
+font-family: 'Amatic SC', cursive;
 font-family: 'Alegreya', serif;
 font-family: 'Caveat', cursive;
-font-family: 'Rubik Mono One', sans-serif;*/
+font-family: 'Rubik Mono One', sans-serif;
+*/
+
+/* Шрифты ввода чисел
+font-family: 'Permanent Marker', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Homemade Apple', cursive;
+*/
 
 /* colours 
 #22050
@@ -26,6 +34,7 @@ body{
     padding: 1px;
     font-family: 'Alegreya', serif;
     color: #000000;
+    
 }
 
 a{
@@ -60,17 +69,17 @@ calculator Окна вычисления
 */
 
 #typetrain{
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     margin-top: 10px;
 }
 
 #typetrain1{
     float: left;
-    background-color: #fb0720;
     width: 98%;
-    height: 250px;
+    height: 375px;
     margin: 1%;
+    padding-bottom: 15px;
     border: 5px solid #fff;
     border-radius: 35px;
     background-color: gray;
@@ -79,27 +88,47 @@ calculator Окна вычисления
 #trainstat1{
     float: left;
     width: auto;
-    margin-left: 50px;
+    margin-left: 7%;
 }
 
 #traindata1{
     float: left;
     width: auto;
-    margin-left: 45px;
+    margin-left: 7%;
+}
+
+#inputdata{
+    margin: 0px;
+    padding: 0px;
+    float: top;
+}
+
+input{
+    font-family: 'Indie Flower', cursive;
+    font-size: larger;
+}
+
+::placeholder{
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+}
+
+#n1, #n2, #n3, n4{
+    width: 250px;
+    height: 40px;
 }
 
 #traincalc1{
     float: left;
     width: auto;
-    margin-left: 50px;
+    margin-left: 7%;
 }
 
 
 #typetrain2{
     float: left;
-    background-color: #fb0720;
     width: 98%;
-    height: 250px;
+    height: auto;
     margin: 1%;
     border: 5px solid #fff;
     border-radius: 35px;
@@ -131,10 +160,16 @@ calculator Окна вычисления
 
 #btn{
     font-family: 'Alegreya', serif;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 25px;
+    color: #000;
 }
 
-::placeholder{
-    font-family: 'Alegreya', serif;
+#out1, #out2{
+    font-size: 75px;
+    font-family: 'Indie Flower', cursive;
 }
 
 /* 
@@ -146,15 +181,18 @@ footer подвал
 */
 
 footer{
+    /* position: fixed;
+    bottom: 0px;
+    right: 0px; */
     float: left;
     background-color: #fb0720;
     width: 98%;
     height: auto;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 1%; 
+    margin: 1%; 
     font-family: 'Rubik Mono One', sans-serif;
-    border: 2px dotted #ffffff;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    background-color: gray;
 }
 
 #footer{
@@ -196,16 +234,3 @@ img{
     color: #16adad;
 }
 
-@media (max-width: 1080px) {
-
-    #typetrain1{
-        float: left;
-        height: 500px;
-    }
-
-    #typetrain2{
-        float: left;
-        height: 500px;
-    }
-
-}
