@@ -5,12 +5,14 @@ body{
     color: red;
     text-align: center;
     font-size: 8px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #test{
     width: 100%;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
     height: auto;
     background-color: #000;
 }
@@ -19,55 +21,110 @@ body{
     width: 100px;
     height: 10px;
     background-color: #fff;
-    margin: 5px;
+    margin: 0px;
+    margin-top: 5px;
 }
 
 #test2{
-    margin: 5px;
+    margin: 0px;
     width: 200px;
     height: 10px;
     background-color: #fff;
+    margin-top: 5px;
 }
 
 #test3{
-    margin: 5px;
+    margin: 0px;
     width: 300px;
     height: 10px;
     background-color: #fff;
+    margin-top: 5px;
 }
 
 #test4{
-    margin: 5px;
+    margin: 0px;
     width: 400px;
     height: 10px;
     background-color: #fff;
+    margin-top: 5px;
+}
+
+#test410{
+    margin: 0px;
+    width: 410px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test425{
+    margin: 0px;
+    width: 425px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test430{
+    margin: 0px;
+    width: 430px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test440{
+    margin: 0px;
+    width: 440px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test450{
+    margin: 0px;
+    width: 450px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test460{
+    margin: 0px;
+    width: 460px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test475{
+    margin: 0px;
+    width: 475px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test480{
+    margin: 0px;
+    width: 480px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+#test490{
+    margin: 0px;
+    width: 490px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 5px;
 }
 
 #test5{
-    margin: 5px;
+    margin: 0px;
     width: 500px;
     height: 10px;
     background-color: #fff;
-}
-
-#test6{
-    margin: 5px;
-    width: 600px;
-    height: 10px;
-    background-color: #fff;
-}
-
-#test7{
-    margin: 5px;
-    width: 700px;
-    height: 10px;
-    background-color: #fff;
-}
-
-#test8{
-    margin: 5px;
-
-    width: 800px;
-    height: 10px;
-    background-color: #fff;
+    margin-top: 5px;
 }
